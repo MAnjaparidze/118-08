@@ -1,0 +1,95 @@
+.event-page-render_container {
+    display: flex;
+    min-height: 600px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.event-page-render_wrapper {
+    display: grid;
+    grid-template-columns: 34% 32% 34%;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+}
+.event-page_container .header__logo__wrapper__bot {
+  box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.08);
+}
+.event-page_event-name {
+    font-size: 20px;
+    color: #2C4251;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-right: 26px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.event-page_event-type {
+    color: rgba(44, 66, 81, 0.6);
+    font-size: 16px;
+}
+.event-page_event-description {
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+.event-page_event-description span {
+    font-weight: bolder;
+}
+.event-page-render_center {
+    /* position: relative; */
+}
+.event-page-render_center img {
+    width: 100%;
+}
+.event-page-render_center .website-logo {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: -50px;
+    left: calc(50% - 24px);
+    z-index: 999;
+}
+.event-page-render_right {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+}
+/* #region EventTicket */
+
+.event-ticket_container {
+    display: grid;
+    grid-template-columns: 200px auto 50px;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.event-ticket_container .event-date {
+    width: 190px;
+    border: 1px solid #42B947;
+    border-radius: 30px;
+    line-height: 35px;
+    height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    align-self: center;
+    font-weight: bolder;
+}
+.event-ticket_container .event-place {
+    align-self: center;
+    font-size: 13px;
+    color: #2C4251;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.event-ticket_container .event-ticket-price {
+    font-size: 18px;
+    color: #42B947;
+    margin-left: -10px;
+    line-height: 35px;
+    text-align: right;
+    font-weight: bolder;
+}
+/* #endregion EventTicket */

@@ -1,0 +1,106 @@
+.events-mid-section_container {
+    height: 440px;
+    position: relative;
+    background-image: url('../../../assets/img/bg-afisha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category-title {
+    font-size: 26px;
+    color: #fff;
+}
+.midSection__search-panel * {
+    z-index: 3;
+    font-family: 'bpg-web-002';
+}
+.events-mid-section_container .dimmed-overlay {
+    background-color: rgba(0, 148, 68, 0.4);
+}
+.events-nav_container * {
+    z-index: 3;
+}
+.events-nav_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    min-height: 130px;
+    bottom: -50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 300ms;
+}
+.events-more-nav_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+}
+.events-more-nav {
+    width: 100%;
+    display: flex;
+    color: #333;
+    border: 1px solid rgba(73, 81, 111, 0.1);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1px;
+    height: 130px;
+    transition: 300ms;
+}
+.events-more-nav span {
+    font-size: 14px;
+}
+.events-more-nav img {
+    width: 12px;
+}
+.events-more-nav:hover {
+    background-color: #42B947;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+}
+.events_additional-nav {
+    display: none;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px 0px 10px 0px;
+    width: 734px;
+    height: auto;
+    background-color: rgba(246, 246, 246);
+    z-index: 200;
+    border: 1px solid rgba(73, 81, 111, 0.1);
+    border-top: none;
+    box-shadow: 0px 15px 20px 0px rgba(128, 128, 128, 0.377);
+}
+.events-nav_container .navigation__list {
+    margin-bottom: 0 !important;
+}
+.events-additional-nav_item {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events-additional-nav_item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(46, 46, 46);
+    border: 1px solid rgba(73, 81, 111, 0.1);
+    transition: 300ms;
+
+}
+.events-additional-nav_item div:hover {
+    background-color: #42B947;
+    cursor: pointer;
+    color: #fff;
+}
+.grid {
+    display: grid !important;
+}
